@@ -2,7 +2,7 @@
 
 <table>
 <tr>
-<td>Package</td><td>cidr/td>
+<td>Package</td><td>cidr</td>
 </tr>
 <tr>
 <td>Description</td>
