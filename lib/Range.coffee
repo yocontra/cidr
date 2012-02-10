@@ -10,6 +10,7 @@ fillBits = (bits) ->
 
 class Range
   constructor: (@prefix, @bits) ->
+    [@prefix. @bits] = @prefix.split '/' unless @bits
     throw 'Missing parameters' unless @prefix and @bits
 
     if @prefix.indexOf('::') > -1

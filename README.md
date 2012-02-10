@@ -20,12 +20,12 @@
 {Range} = require 'cidr'
 
 # IPv4
-range = new Range '192.168.1.0', 24
+range = new Range '192.168.1.0/24'
 range.getRandom() # -> 192.168.1.37
 range.getTotal() # -> 254
 
 # IPv6
-range2 = new Range '620:0:2d0:200::', 24
+range2 = new Range '620:0:2d0:200::/24'
 range2.getRandom() # -> 620:0:2d0:200:89bb:2ea0:3733:1c55
 range2.getTotal() # -> 2.028240960365167e+31
 ```
