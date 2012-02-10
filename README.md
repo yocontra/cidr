@@ -1,12 +1,12 @@
 ## Information
 
 <table>
-<tr> 
-<td>Package</td><td>APPNAME</td>
+<tr>
+<td>Package</td><td>cidr/td>
 </tr>
 <tr>
 <td>Description</td>
-<td>NOTHING HERE YET</td>
+<td>CIDR IP operations for node.js</td>
 </tr>
 <tr>
 <td>Node Version</td>
@@ -17,12 +17,22 @@
 ## Usage
 
 ```coffee-script
-NOTHING HERE YET
+{Range} = require 'cidr'
+
+# IPv4
+range = new Range '192.168.1.0', 24
+range.getRandom() # -> 192.168.1.37
+range.getTotal() # -> 254
+
+# IPv4
+range2 = new Range '620:0:2d0:200::', 24
+range2.getRandom() # -> 620:0:2d0:200:89bb:2ea0:3733:1c55
+range2.getTotal() # -> 254
 ```
 
 ## Examples
 
-You can view further examples in the [example folder.](https://github.com/wearefractal/APPNAME/tree/master/examples)
+You can view further examples in the [example folder.](https://github.com/wearefractal/cidr/tree/master/examples)
 
 ## LICENSE
 

@@ -1,3 +1,2 @@
-require('node-log').setName 'APPNAME'
-
-module.exports = {}
+module.exports =
+  Range: require './Range'

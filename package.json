@@ -1,17 +1,14 @@
 {
-   "name":"APPNAME",
-   "description":"Nothing here yet",
+   "name":"cidr",
+   "description":"CIDR IP operations",
    "version":"0.0.1",
-   "homepage":"http://github.com/wearefractal/APPNAME",
-   "repository":"git://github.com/wearefractal/APPNAME.git",
+   "homepage":"http://github.com/wearefractal/cidr",
+   "repository":"git://github.com/wearefractal/cidr.git",
    "author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
    "main":"./index.js",
-   
+
    "dependencies":{
       "coffee-script":"*"
-   },
-   "devDependencies":{
-      "node-log":"*"
    },
    "engines":{
       "node":">= 0.4.0"
@@ -19,7 +16,7 @@
    "licenses":[
       {
          "type":"MIT",
-         "url":"http://github.com/wearefractal/APPNAME/raw/master/LICENSE"
+         "url":"http://github.com/wearefractal/cidrraw/master/LICENSE"
       }
    ]
 }
