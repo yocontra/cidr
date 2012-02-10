@@ -27,7 +27,7 @@ range.getTotal() # -> 254
 # IPv4
 range2 = new Range '620:0:2d0:200::', 24
 range2.getRandom() # -> 620:0:2d0:200:89bb:2ea0:3733:1c55
-range2.getTotal() # -> 254
+range2.getTotal() # -> 2.028240960365167e+31
 ```
 
 ## Examples
